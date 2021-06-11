@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/src/pages"
+      }
+    ],
+    "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang"
+  ],
+  "paths": {
+    "ROOT": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang",
+    "SRC": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/src",
+    "DIST": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/dist",
+    "ASSETS": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/dist",
+    "PLUGINS": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/plugins",
+    "TEMP": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/tmp",
+    "ARTIFACTS": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/artifacts",
+    "PUBLIC": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/public",
+    "NODE_MODULES": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/node_modules",
+    "EXCLUDE_MODULES": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/node_modules",
+    "PACKAGE": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/package.json",
+    "HTML_TEMPLATE": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/dist/index.html",
+    "STATIC_DATA": "/Users/prakashramadass/Desktop/mukthi_static_web/astro_panchang/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
